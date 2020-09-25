@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar padding-top padding-bottom>
+    <ion-title text-center>payment-details</ion-title>
+    <ion-buttons end>
+      <button (click)="openNotifications()" padding ion-button icon-only>
+        <img src="../../assets/img/Icon feather-share-2.png">
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div margin class="big-text">Get Curl Care Select</div>
+  <div class="bold-font large-text total-price text-purple" style="font-size: 3rem;" margin>$28</div>
+  <div margin class="big-text">Paypal Method</div>
+
+  <div class="row" margin-left>
+    <button class="text-white text-transfrom paypal-btn" ion-button round (click)="save()" style="width: 40%;">
+      <span>Paypal</span>
+      <span margin-left class="large-text">
+        <ion-icon ios="ios-checkmark-circle-outline" md="ios-checkmark-circle-outline"></ion-icon>
+      </span>
+    </button>
+
+    <button class="text-white text-transfrom card-btn" margin-left ion-button round (click)="save()"
+      style="width: 40%;">
+      <span>Card</span>
+      <span margin-left class="large-text">
+        <ion-icon ios="ios-checkmark-circle-outline" md="ios-checkmark-circle-outline"></ion-icon>
+      </span>
+    </button>
+  </div>
+
+  <ion-item>
+    <ion-label floating>Card Number</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+  <div class="row">
+    <ion-item style="width: 50%;">
+      <ion-label floating>Vaild Until</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item style="width: 50%;">
+      <ion-label floating>cvv</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+  </div>
+  <ion-item>
+    <ion-label floating>Card Holder Name</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <button class="text-white text-transfrom pay-button" ion-button round (click)="proceedTopay()">Process to pay</button>
+</ion-content>

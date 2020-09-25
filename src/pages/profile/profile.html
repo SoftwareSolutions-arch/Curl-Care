@@ -1,0 +1,73 @@
+<ion-content>
+  <div class="row">
+    <div col-4>
+      <img margin-left class="header-img" src="../../assets/img/icon.png">
+    </div>
+    <div style="text-align: center;" col-6 margin-top>
+      <span class="user-name big-text bold-font" style="text-align: center;">Hey Adelina</span>
+    </div>
+    <div col-2>
+      <img style="float: right;" class="bottom-img" margin-right margin-top
+        src="../../assets/img/Icon feather-share-2.png">
+    </div>
+  </div>
+
+  <div>
+    <img class="profile-img" src="../../assets/img/Ellipse 84.png">
+    <img class="edit-img" src="../../assets/img/Group 1360.png">
+  </div>
+
+  <ion-item padding-top>
+    <ion-label>My Curl Pattern</ion-label>
+    <ion-select [(ngModel)]="curlPattern">
+      <ion-option value="f">latest</ion-option>
+      <ion-option value="m">old</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item padding-top>
+    <ion-label>My Curl Width</ion-label>
+    <ion-select [(ngModel)]="curlWidth">
+      <ion-option value="f">100cm</ion-option>
+      <ion-option value="m">200cm</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item padding-top>
+    <ion-label>My Hair Porosity</ion-label>
+    <ion-select [(ngModel)]="hairPorosity">
+      <ion-option value="f">50mm</ion-option>
+      <ion-option value="m">100mm</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item padding-top>
+    <ion-label>My Hair Length</ion-label>
+    <ion-select [(ngModel)]="hairLength">
+      <ion-option value="f">100cm</ion-option>
+      <ion-option value="m">200cm</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <span class="bold-font big-text text-purple text-track">Track my hair length</span>
+  <span class="big-text text-user">(to be available for upgraded users only)</span>
+
+  <ion-item padding-top>
+    <ion-label class="text-grey">Length in Back</ion-label>
+    <ion-select [(ngModel)]="lengthBack">
+      <ion-option value="f" [disabled]="true">latest</ion-option>
+      <ion-option value="m" [disabled]="true">old</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item padding-top>
+    <ion-label class="text-grey">Length on Side</ion-label>
+    <ion-select [(ngModel)]="lengthSide">
+      <ion-option value="f" [disabled]="true">latest</ion-option>
+      <ion-option value="m" [disabled]="true">old</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <button class="text-white text-transfrom save-btn" padding ion-button round margin-top margin-bottom (click)="save()"
+    style="width: 40%;">Save</button>
+</ion-content>

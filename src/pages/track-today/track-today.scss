@@ -1,0 +1,90 @@
+page-track-today {
+  img.profile-img {
+    display: block;
+    margin: auto;
+  }
+
+  img.edit-img {
+    position: relative;
+    display: block;
+    margin: auto;
+    top: -55px;
+    left: 40px;
+  }
+
+  .label-input {
+    position: absolute;
+    right: 30px;
+  }
+
+  .checkbox-md .checkbox-icon {
+    border-color: #f7adcd;
+  }
+
+  .checkbox-ios .checkbox-icon {
+    border-color: #f7adcd;
+    border-radius: 0% !important;
+  }
+
+  .button-md {
+    background-color: white !important;
+    color: #f7adcd;
+    border: 2px solid #f7adcd;
+    box-shadow: none !important;
+    -webkit-webkit: box shadow 0;
+    -moz-webkit: box shadow 0;
+    -ms-webkit: box shadow 0;
+    -o-webkit: box shadow 0;
+  }
+
+  .button-ios {
+    background-color: white !important;
+    color: #f7adcd;
+    border: 2px solid #f7adcd;
+    box-shadow: none !important;
+    -webkit-webkit: box shadow 0;
+    -moz-webkit: box shadow 0;
+    -ms-webkit: box shadow 0;
+    -o-webkit: box shadow 0;
+  }
+
+  .add-button:focus {
+    background-color: #f7adcd !important;
+    color: white !important;
+  }
+
+  .save-button:focus {
+    background-color: #f7adcd !important;
+    color: white !important;
+  }
+
+  .text-row {
+    margin-left: 85pt;
+  }
+
+  .save-btn {
+    background-color: #f7adcd !important;
+    color: white !important;
+    display: block;
+    margin: auto;
+    margin-top: 10% !important;
+  }
+
+  .item-select .label-md {
+    color: black;
+  }
+
+  img.img-share {
+    position: absolute;
+    right: 16px;
+    top: 22px;
+  }
+
+  ion-slide.swiper-slide {
+    font-size: 1rem;
+  }
+
+  .todayDate {
+    color: #EC5368;
+  }
+}

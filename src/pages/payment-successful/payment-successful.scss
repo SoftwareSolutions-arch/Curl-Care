@@ -1,0 +1,45 @@
+page-payment-successful {
+  .header-md::after {
+    background-image: none !important
+  }
+
+  .toolbar-background.toolbar-background-md {
+    background: #f8f8f800 !important;
+  }
+
+  hr.solid {
+    border-top: 1px solid #bbb;
+  }
+
+  img.img-src {
+    width: 40px;
+    float: right;
+    margin-top: 20px;
+  }
+
+  .img-group {
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-top: 15px;
+  }
+
+  .text-payment {
+    text-align: center;
+    margin-top: 4px;
+  }
+
+  .text-label{
+    float: right;
+  }
+
+  .id-label{
+    float: right;
+    margin-top:-5px !important
+  }
+
+  .done-button{
+    display: block;
+    margin: auto;
+  }
+}

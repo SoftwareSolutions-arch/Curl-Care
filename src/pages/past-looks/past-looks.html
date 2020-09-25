@@ -1,0 +1,48 @@
+<ion-content>
+  <div class="row">
+    <div col-4>
+      <img margin-left class="header-img" src="../../assets/img/icon.png">
+    </div>
+    <div style="text-align: center;" col-6 margin-top>
+      <span class="user-name bold-font" style="text-align: center;">Hey Adelina</span>
+    </div>
+    <div col-2>
+      <img style="float: right;" class="bottom-img" margin-right margin-top
+        src="../../assets/img/Icon feather-share-2.png">
+    </div>
+  </div>
+  <div>
+    <img class="profile-img" src="../../assets/img/Ellipse 84.png">
+    <img class="edit-img" src="../../assets/img/Group 1360.png">
+  </div>
+
+  <div class="row" margin-left>
+    <div padding-left padding-right padding-top>
+      <img class="profile-imgs" src="../../assets/img/bg2.png">
+      <img class="share-img" src="../../assets/img/Group 5154.png">
+    </div>
+    <div padding-left padding-right padding-top>
+      <img class="profile-imgs" src="../../assets/img/bg1.png">
+    </div>
+    <div padding-left padding-right padding-top>
+      <img class="profile-imgs" src="../../assets/img/bg.png">
+    </div>
+  </div>
+
+  <div class="row" *ngIf="showMoredata" margin-left>
+    <div padding-left padding-right >
+      <img class="profile-imgs" src="../../assets/img/bg2.png">
+      <img class="share-img" src="../../assets/img/Group 5154.png">
+    </div>
+    <div padding-left padding-right >
+      <img class="profile-imgs" src="../../assets/img/bg1.png">
+    </div>
+    <div padding-left padding-right >
+      <img class="profile-imgs" src="../../assets/img/bg.png">
+    </div>
+  </div>
+
+  <button class="text-white text-transfrom signin-btn" padding ion-button round margin-top (click)="showMore()"
+    style="width: 40%;" *ngIf="showButton">Show More</button>
+
+</ion-content>

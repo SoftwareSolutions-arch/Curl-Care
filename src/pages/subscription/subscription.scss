@@ -1,0 +1,71 @@
+page-subscription {
+  .ion-img {
+    background-image: url('../../assets/img/background.png');
+    height: 61%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .img-diamond {
+    position: absolute;
+    top: 0px;
+    display: block;
+    left: 40%;
+    top: 10%;
+  }
+
+  .text-premium {
+    font-size: 4rem;
+    margin-left: -37px;
+    color: white;
+  }
+
+  .amount-details {
+    margin-top: -15%;
+    font-size: 7rem;
+    color: #f7adcd;
+    float: right;
+  }
+
+  .per-month {
+    font-size: 3.5rem;
+    margin-top: -17%;
+    margin-left: -15px;
+  }
+
+
+  .vertical-line {
+    display: inline-block;
+    border-left: 3px solid #343434;
+    height: 80px;
+    margin-top: -25px;
+  }
+
+  .icon-img {
+    color: #f7adcd;
+    zoom: 2.1;
+    margin-left: 30pt;
+  }
+
+  .label-text {
+    margin-left: -45%;
+    font-size: 1.7rem;
+    // padding: 3px;
+  }
+
+  .buy-btn {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
+  .back-arrow {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 3rem;
+    color: white;
+  }
+}

@@ -1,0 +1,40 @@
+page-profile {
+  .header-img {
+    width: 100px;
+    height: 10vh;
+  }
+
+  img.profile-img {
+    display: block;
+    margin: auto;
+  }
+
+  img.edit-img {
+    position: relative;
+    display: block;
+    margin: auto;
+    top: -55px;
+    left: 40px;
+  }
+
+  .text-track {
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .text-user {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .item-select .label-md {
+    color: black;
+  }
+
+  .save-btn {
+    display: block;
+    margin: auto;
+  }
+}

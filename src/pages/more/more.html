@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar padding>
+    <ion-buttons no-margin left>
+      <img src="../../assets/img/Rectangle 17412.png">
+    </ion-buttons>
+    <ion-title item-center>Hey Adelina</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div padding>
+    <div class="bold-font large-text" margin>Account Management</div>
+    <div margin-left margin-top class="big-text" (click)="changePassword()">Change Password</div>
+    <div margin-left margin-top class="big-text">Add an Account</div>
+  </div>
+  <hr class="solid">
+    <div class="bold-font large-text" margin padding-left (click)="shareapp()">Invite Friends</div>
+  <hr class="solid">
+  <div class="bold-font large-text" margin padding-left (click)="upgradeAccount()">Upgrade Your Curl Care to Select</div>
+  <hr class="solid">
+  <div class="bold-font large-text" margin padding-left>Subsription</div>
+  <div margin padding-left class="big-text" (click)="upgradeAccount()">Get Curl Care Select</div>
+  <hr class="solid">
+  <div class="bold-font large-text" margin padding-left>Settings</div>
+  <ion-item no-lines>
+    <ion-label style="margin-left:16px;">Push Notifications</ion-label>
+    <ion-toggle [(ngModel)]="PushNotifications"></ion-toggle>
+  </ion-item>
+  <div margin-left margin-bottom padding-left class="big-text" (click)="privacyPolicy()">Privacy,Terms & Conditions</div>
+  <hr class="solid">
+  <div class="bold-font large-text" margin padding-left (click)="help()">Help</div>
+  <hr class="solid">
+  <div class="bold-font large-text" margin padding-left>Contact Us</div>
+  <div class="row" (click)="shareViaEmail()">
+    <div margin-left margin-bottom padding-left class="big-text">Email Us</div>
+    <div class="medium-text text-mail">dummy@gmail.com</div>
+  </div>
+  <div margin-left margin-bottom padding-left class="big-text" (click)="aboutCurlCare()">About Curl Care</div>
+
+</ion-content>

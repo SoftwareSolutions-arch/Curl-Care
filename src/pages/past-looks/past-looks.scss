@@ -1,0 +1,40 @@
+page-past-looks {
+  .header-img {
+    width: 100px;
+    height: 10vh;
+  }
+
+  img.profile-img {
+    display: block;
+    margin: auto;
+  }
+
+  img.profile-imgs {
+    display: block;
+    margin: auto;
+    min-width: 115%;
+  }
+
+  img.edit-img {
+    position: relative;
+    display: block;
+    margin: auto;
+    top: -55px;
+    left: 40px;
+  }
+
+
+  .share-img{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: -110px;
+    left: 50px;
+  }
+
+  
+  .signin-btn {
+    display: block;
+    margin: auto;
+  }
+}
